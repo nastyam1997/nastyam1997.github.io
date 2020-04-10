@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/checkbox.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Чекбоксы</title>
+  </head>
+  <body>
+    <div class="contener">
+      <header class="menu">
+        <h1 class="menu__title">Меню задач</h1>
+        <nav>
+          <ul class="menu__nav">
+            <li class="menu__item">
+              <a href="button.html" class="menu__link">Кнопки</a>
+            </li>
+            <li class="menu__item">
+              <a href="link.html" class="menu__link">Ссылки</a>
+            </li>
+            <li class="menu__item">
+              <a href="checkbox.html" class="menu__link">Чекбоксы</a>
+            </li>
+            <li class="menu__item">
+              <a href="radio.html" class="menu__link">Радиоботтоны</a>
+            </li>
+            <li class="menu__item">
+              <a href="verstka.html" class="menu__link">Верстка</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="checkbox">
+        <div class="checkbox__shop">
+          <h2 class="checkbox__title">Купить:</h2>
+          <input
+            type="checkbox"
+            id="pizza"
+            name="food"
+            class="checkbox__products"
+          />
+          <label for="pizza" class="checkbox__food">Пицца</label>
+          <input
+            type="checkbox"
+            id="bread"
+            name="food"
+            class="checkbox__products"
+          />
+          <label for="bread" class="checkbox__food">Хлеб</label>
+          <input
+            type="checkbox"
+            id="pasta"
+            name="food"
+            class="checkbox__products"
+          />
+          <label for="pasta" class="checkbox__food">Паста</label>
+        </div>
+        <div class="checkbox__delp">
+          <h3 class="checkbox__title">Сделать:</h3>
+          <input type="checkbox" class="checkbox__tasks" id="morning" name="morning">
+          <label for="morning" class="checkbox__task">Проснуться</label>
+          <input type="checkbox" class="checkbox__tasks" id="breakfast" name="breakfast"
+          value="yes">
+          <label for="breakfast" class="checkbox__task">Позавтракать</label>
+          <input type="checkbox" class="checkbox__tasks" id="cleaning" name="cleaning"
+          value="yes">
+          <label for="cleaning" class="checkbox__task">Убраться</label>
+          <input type="checkbox" class="checkbox__tasks" id="friends" name="friends"
+          value="yes">
+          <label for="friends" class="checkbox__task">Встретиться с друзьями</label>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

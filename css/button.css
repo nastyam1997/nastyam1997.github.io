@@ -1,0 +1,184 @@
+body {
+  background-color: rgb(72, 0, 87);
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu__title {
+  color: aliceblue;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__item {
+  display: block;
+  padding: 0 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.menu__link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu__link:hover {
+  background-color: black;
+}
+.menu__link:active {
+  background-color: black;
+}
+.blok {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+.block__text {
+  color: aliceblue;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background: #ffffff;
+
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  border-radius: 2px;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button__smiley {
+  width: 30px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.button__text {
+  vertical-align: middle;
+  text-decoration: none;
+  color: #000;
+}
+.button__beautiful {
+  transition: All 0.5s ease;
+}
+.button__beautiful:hover {
+  width: 200px;
+  font-size: 23px;
+}
+.button__good {
+  background-color: rgb(39, 99, 99);
+  color: #fff;
+  transition: All 0.5s ease;
+}
+.button__good:hover {
+  background-color: rgb(250, 250, 250);
+  color: #000;
+}
+
+.button__fine {
+  position: relative;
+  transform: translateZ(0);
+  transition: color 1000ms;
+}
+.button__fine:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(39, 99, 99);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform;
+  transition: 300ms ease-out;
+}
+.button__fine:hover:before {
+  transform: scaleX(1);
+}
+.button__sad {
+  position: relative;
+  transform: translateZ(0);
+  transition: color 1000ms;
+}
+.button__sad:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(39, 99, 99);
+  transform: scaleY(0);
+  transform-origin: 50% 0%;
+  transition-property: transform;
+  transition: 300ms ease-out;
+}
+.button__sad:hover:before {
+  transform: scaleY(1);
+}
+.button-bad {
+  position: relative;
+  transition: color 500ms;
+  transform: translateZ(0);
+}
+.button-bad:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+  background: rgb(39, 99, 99);
+  transform: scaleX(0);
+  transition-property: transform;
+  transform-origin: 0% 50%;
+  transition: 300ms ease-out;
+}
+.button-bad:hover:before {
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.button__romantic {
+  background-color: rgb(39, 99, 99) !important;
+  position: relative;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: color 300ms;
+}
+.button__romantic:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  transform: scale(1);
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transition: 300ms ease-out;
+}
+.button__romantic:hover:before {
+  transform: scale(0);
+}

@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(72, 0, 87);
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu__title {
+  color: aliceblue;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__item {
+  display: block;
+  padding: 0 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.menu__link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu__link:hover {
+  background-color: black;
+}
+.blok {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+.block__text {
+  color: aliceblue;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link__item {
+  vertical-align: middle;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.link__cheburashka:hover {
+  background: rgb(59, 61, 192);
+}
+.link__winnie:hover {
+  color: orange;
+}
+.link__clacker:hover {
+  font-size: 33px;
+  text-decoration: underline;
+}
+.link__brownie {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.link__brownie:hover {
+  background-size: 100% 2px;
+}
+.link__fyodor {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.link__fyodor:hover {
+  background-size: 100% 2px;
+}
+.link__carlson:hover {
+  border: 1px solid red;
+  padding: 5px;
+}

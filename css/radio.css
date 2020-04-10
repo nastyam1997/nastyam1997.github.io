@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(72, 0, 87);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .menu__title {
+    color: aliceblue;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu__item {
+    display: block;
+    padding: 0 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .menu__link {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .menu__link:hover {
+    background-color: black;
+  }
+  .gender{
+      background-color: #fff;
+      width: 250px;
+      height: 70px;
+      margin-left: 200px;
+      margin-top: 50px;
+      padding-left: 10px;
+  }
+  .title{
+      font-size: 23px;
+      margin: 0;
+  }
+  .gender__lable {
+
+    display: inline-block;
+
+    cursor: pointer;
+
+    position: relative;
+
+    padding-left: 25px;
+
+    margin-right: 15px;
+
+    font-size: 13px;
+
+}
+.gender__radio[type=radio] {
+
+    display: none;
+}
+.gender__lable:before {
+
+    content: "";
+
+    display: inline-block;
+
+ 
+
+    width: 16px;
+
+    height: 16px;
+    margin-right: 10px;
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 1px;
+
+    background-color: #aaa;
+
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+
+}
+.gender .gender__lable:before {
+
+    border-radius: 8px;
+
+}
+.gender__radio[type=radio]:checked + .gender__lable:before {
+
+    content: "\2022";
+
+    color: #1e9928;
+    font-size: 30px;
+
+    text-align: center;
+
+    line-height: 18px;
+
+}
